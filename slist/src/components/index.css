@@ -1,0 +1,24 @@
+:root {
+    --bg: rgb(8, 8, 201);
+    --cl: white;
+    --bg2: black;
+    --cl2: rgb(223, 24, 206);
+    --bg3: blue;
+    --cl3: grey;
+    --pink: rgba(243, 61, 137, 0.884);
+}
+
+*::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: var(--bg);
+    color: var(--pink);
+    line-height: 1.5;
+    font-size: .875rem;
+}
