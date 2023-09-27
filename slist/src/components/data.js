@@ -4,31 +4,31 @@ let list = [
     id: 1,
     name: 'johnds',
     age: 33,
-    image: './Images/angelLooks.png'
+    image: require('./angelLooks.png')
     },
     {
         id: 2,
         name: 'johns',
         age: 333,
-        image: './Images/angelsb.png'
+        image: require('./angelsb.png')
         },
         {
             id: 3,
             name: 'johnd',
             age: 353,
-            image: './Images/RedHeadAngel.png'
+            image: require('./RedHeadAngel.png')
             },
             {
                 id: 4,
                 name: 'johnf',
                 age: 3663,
-                image: './Images/goldenface.png'
+                image: require('./goldenface.png')
                 },
                 {
                     id: 5,
                     name: 'johne',
                     age: 3223,
-                    image: './Images/goldenHarleyQuinn.png'
+                    image: require('./goldenHarleyQuinn.png')
                     },
 ]
 

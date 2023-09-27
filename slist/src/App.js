@@ -12,7 +12,7 @@ function App() {
     <>
     <div className="container">
     <h3># of Students = {people.length}</h3>
-    <List/>
+    <List people={people}/>
       
     </div>
     </>
