@@ -8,7 +8,7 @@ const List = ({people}) => {
                 return (
                     <>
                     <div key={id} className="person">
-                        <img src={image} alt={image}/>
+                        <img  width="150px" src={image} alt={image}/>
                         <div>
                             <h4>{name}</h4>
                             <p>{age}</p>
