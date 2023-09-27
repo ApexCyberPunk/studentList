@@ -11,9 +11,10 @@ function App() {
 
     <>
     <div className="container">
+    <h3># of Students = {people.length}</h3>
+    <List/>
       
     </div>
-  <p>what up</p>
     </>
 
   )
